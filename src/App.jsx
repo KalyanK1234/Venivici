@@ -33,7 +33,7 @@ const App = () => {
     <div style={{ textAlign: 'center', padding: '2rem' }}>
       <h1>Veni Vici!</h1>
       <button onClick={getNewItem} style={{ margin: '1rem' }}>
-        Get Random User
+        Get Random Item
       </button>
 
       <ItemCard item={item} onAttributeClick={handleAttributeClick} />
